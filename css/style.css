@@ -1,0 +1,32 @@
+
+.c-height{
+    height: 90vh;
+    background-color: gray;
+}
+
+.main-box{
+width: 400px;
+height: 600px;
+background-color: gray;
+margin-top: 5px;
+position: relative;
+}
+.child-box{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+.box-1{
+    background-color: blue;
+    left: 65px;
+    z-index: 1;
+}
+.box-2{
+    background-color: rgb(230, 113, 23);
+    z-index: 2;
+}
+   
+header .bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(237 131 41) !important;
+}
